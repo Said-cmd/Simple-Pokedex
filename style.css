@@ -6,7 +6,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  background-color: hsl(50, 100%, 86%);
+  background-color: hsl(50, 100%, 80%);
 }
 
 .pokemon-holder {
@@ -20,7 +20,6 @@ body {
   text-transform: capitalize;
   font-size: 40px;
 }
-
 
 #pokemon-image {
   width: 220px;
