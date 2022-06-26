@@ -11,12 +11,12 @@ html {
   }
 
   .h1-style {
-    color: black ;
+    color: white ;
   }
   
   .logo{
     text-align: center;
-    background-color: yellow;
+    background-color: black;
     color: white;
     padding: 0.5em;
   }
@@ -52,7 +52,7 @@ html {
   
   input[type="submit"], button {
     background-color: yellow;
-    color: black;
+    color: white;
     font-size: 18px;
     border-radius: 7px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
