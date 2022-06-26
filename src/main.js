@@ -1,14 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
-  showPokemon();
+document.addEventListener("DOMContentLoaded", () =>  {
+  fetchPokemon
 });
-const favoritePokemon = "4"
-const url = `https://pokeapi.co/api/v2/pokemon/${favoritePokemon}`
+document.querySelector("#poke-button").addEventListener("click", fetchPokemon);
 
-let pokeEnter = document.getElementById("poke-search")
-let pokeSearch = document.getElementById("poke-button")
-
-
-fetch(url)
+function fetchPokemon (e) {
+  const name = document.querySelector("#poke-search").value;
+fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)
   .then(parseResponse)
   .then(showPokemon)
   .catch(showError)
@@ -18,17 +15,20 @@ function parseResponse(response) {
 }
 
 function showPokemon(pokemonData) {
-  const imageUrl = pokemonData.sprites.front_default
-  const name = pokemonData.name
-
-  const $image = document.querySelector("#pokemon-image")
-  const $name = document.querySelector("#pokemon-name")
-
-  $image.src = imageUrl
-  $name.textContent = name
-}
+  document.querySelector(".poke-holder").innerHTML = `
+      <div>
+      <h1>My Pokémon Is: </h1>
+      <img id="pokemon-image" 
+      src="${pokemonData.sprites.other["official-artwork"].front_default}"
+        alt="Pokemon Name"
+        >
+        <p id="pokemon-name">${pokemonData.name}</p>
+      </div>`
+};
 
 function showError(error) {
   const $error = document.querySelector("#error")
   $error.textContent = error.message
+}
+e.preventDefault();
 }
