@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", () => {
+  showPokemon();
+});
 const favoritePokemon = "golurk"
 const url = `https://pokeapi.co/api/v2/pokemon/${favoritePokemon}`
 
