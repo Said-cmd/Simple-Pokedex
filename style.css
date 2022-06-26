@@ -1,58 +1,30 @@
-html {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
 
-html, body {
+body {
+  font-family: 'Pokemon Solid', sans-serif;                                         
+  padding: 36px;
   margin: 0;
-  padding: 0;
-  background-image: url('assets/Pokidex Background.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(50, 100%, 86%);
 }
 
-.h1-style {
-  color: white ;
-}
-
-.logo {
+.pokemon-holder {
   text-align: center;
-  background-color: black;
-  color: white;
-  padding: 0.5em;
+  background-color: #fff;
+  padding: 36px;
+  border-radius: 6px;
 }
 
-.pokemon-card{
-  height: 550px;
-  padding: 30px;
-  font-size: 24px;
-  border: dotted;
-  text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  background-color: rgb(215, 215, 133);
+#pokemon-name {
+  text-transform: capitalize;
+  font-size: 40px;
 }
 
-.pokemon-card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+#pokemon-image {
+  width: 220px;
 }
 
-.container {
-  padding: 2px 16px;
-}
-
-input[type="submit"], button {
-  background-color: yellow;
-  color: black;
+h1 {
   font-size: 18px;
-  border-radius: 7px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-input[type="text"] {
-  font-size: 3vh;
-}
-
-#image{
-  width: 300px;
-  height: 300px;
 }
