@@ -20,3 +20,12 @@ body {
   text-transform: capitalize;
   font-size: 40px;
 }
+
+
+#pokemon-image {
+  width: 220px;
+}
+
+h1 {
+  font-size: 18px;
+}
