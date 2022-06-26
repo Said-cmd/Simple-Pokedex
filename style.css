@@ -16,3 +16,7 @@ body {
   border-radius: 6px;
 }
 
+#pokemon-name {
+  text-transform: capitalize;
+  font-size: 40px;
+}
