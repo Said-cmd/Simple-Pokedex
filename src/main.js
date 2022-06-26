@@ -1,5 +1,9 @@
-const favoritePokemon = "bulbasaur"
+const favoritePokemon = "golurk"
 const url = `https://pokeapi.co/api/v2/pokemon/${favoritePokemon}`
+
+let pokeEnter = document.getElementById("poke-search")
+let pokeSearch = document.getElementById("poke-button")
+
 
 fetch(url)
   .then(parseResponse)
