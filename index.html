@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Pokidex</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="logo">
+      <h1 class="h1-style">Pokidex</h1>
+        <!-- The pokemon search bar appears here -->
+      <form id="votes-form">
+        <input type="text" placeholder="Search for a pokemon" id="pokemon-search" name="poke-bar" />
+        <input type="submit" value="Search for a pokemon" />
+      </form>
+    </div>
+      <!-- Pokemon image and name goes here -->
+    <div class="pokemonInfo">
+      <div id="detailed-pokemon-info">
+        <p id="name">Pokemon's Name</p>
+        <img
+          id="image"
+          src=""
+          alt="Pokemon Name"
+        />
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
