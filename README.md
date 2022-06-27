@@ -1,7 +1,7 @@
 # Simple-Pokedex
 ## By Said-cmd
 ## Link to live site on github pages:
-*https://said-cmd.github.io/Simple-Pokidex/
+* https://said-cmd.github.io/Simple-Pokidex/
 ## Description
 
 This project is a web application that mimics a simplified Pokedex from the popular cartoon series Pokémon. Using a minimalist design it allows the user to go through the Pokémon in the PokéAPI by simply entering the ID number of the Pokémon or the name of the Pokémon(if they know which one they're after).
