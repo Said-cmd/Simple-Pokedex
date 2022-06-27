@@ -9,15 +9,15 @@ This project is a web application that mimics a simplified Pokedex from the popu
 
 ## Users of the application will be able to:
 
-*View the name of the Pokémon searched
-*View the image of the Pokémon searched
+* View the name of the Pokémon searched
+* View the image of the Pokémon searched
 
-##Requirements
+## Requirements
 
-*Internet access
-*A computer with a compatible browser 
+* Internet access
+* A computer with a compatible browser 
 
-##Installation Process
+## Installation Process
 
 Clone this repo locally using the format: git clone git@github.com:Said-cmd/Simple-Pokidex.git
 
@@ -25,17 +25,17 @@ Unzip the downloaded files and open them in a text editor of your choice.
 
 Open the index.html file with any compatible browser. 
 
-##Technologies Used
+## Technologies Used
 
-*HTML - used to structure the webpage.
+* HTML - used to structure the webpage.
 
-*CSS - used to style the user interface and the webpage as a whole.
+* CSS - used to style the user interface and the webpage as a whole.
 
-*JavaScript- used to make the webpage responsive and allow for the Pokémon search feature.
+* JavaScript- used to make the webpage responsive and allow for the Pokémon search feature.
 
-##License
+## License
 
-##MIT License
+## MIT License
 
 Copyright (c) [2022] [Said-cmd]
 
@@ -43,6 +43,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-##Author
+## Author
 
 GitHub: https://github.com/Said-cmd
