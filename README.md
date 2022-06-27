@@ -1,4 +1,4 @@
-# Simple-Pokidex
+# Simple-Pokedex
 ## By Said-cmd
 
 ## Description
