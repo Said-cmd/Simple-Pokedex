@@ -1,11 +1,17 @@
 document.addEventListener("DOMContentLoaded", () =>  {
   fetchPokemon
 });
+
 document.querySelector("#poke-button").addEventListener("click", fetchPokemon);
+
+function lowerCasePokeName (string) {
+  return string.toLowerCase();
+}
 
 function fetchPokemon (e) {
   const name = document.querySelector("#poke-search").value;
-fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)
+  const pokeName = lowerCasePokeName(name)
+fetch(`https://pokeapi.co/api/v2/pokemon/${pokeName}`)
   .then(parseResponse)
   .then(showPokemon)
   .catch(showError)
