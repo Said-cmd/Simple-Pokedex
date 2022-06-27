@@ -9,7 +9,7 @@ This project is a web application that mimics a simplified Pokedex from the popu
 
 ### How to use the webpage 
 
-Once the page has fully loaded, type in any random number into the search bar and click search by tapping the search icon. - This will generate the Pokémon name and image for each number you input. Similarly if you're a Pokémon fan or know some of the Pokémon names, type in the Pokémon name (IN LOWERCASE LETTERS) and tap the search button to reveal the Pokémon name and image.
+Once the page has fully loaded, type in any random number into the search bar and click search by tapping the search icon. - This will generate the Pokémon name and image for each number you input. Similarly if you're a Pokémon fan or know some of the Pokémon names, type in the Pokémon name and hit enter or tap the search button to reveal the Pokémon name and image.
 
 ### Users of the application will be able to:
 
