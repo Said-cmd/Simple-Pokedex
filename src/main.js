@@ -30,9 +30,9 @@ function showError(error) {
   const $error = document.querySelector(".poke-holder").innerHTML = `
   <img id="pokemon-image" 
   src="assets/PokeError.webp"
-    alt="Pokémon was not found"
+    alt="Pokémon not found"
     >
-  <p id="pokemon-name">Pokémon was not found</p>
+  <p id="pokemon-name">Pokémon not found, please re-enter the name or ID</p>
   `
 }
 e.preventDefault();
