@@ -27,8 +27,13 @@ function showPokemon(pokemonData) {
 };
 
 function showError(error) {
-  const $error = document.querySelector("#error")
-  $error.textContent = error.message
+  const $error = document.querySelector(".poke-holder").innerHTML = `
+  <img id="pokemon-image" 
+  src="assets/PokeError.webp"
+    alt="Pokémon was not found"
+    >
+  <p id="pokemon-name">Pokémon was not found</p>
+  `
 }
 e.preventDefault();
 }
