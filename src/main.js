@@ -39,7 +39,7 @@ function showError(error) {
   src="assets/PokeError.webp"
     alt="Pokémon not found"
     >
-  <p id="pokemon-name">Pokémon not found, please re-enter the name or ID</p>
+  <p id="pokemon-name">Pokémon not found, please re-enter the name or number(ID)</p>
   `
 }
 e.preventDefault();
