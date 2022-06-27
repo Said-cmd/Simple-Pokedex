@@ -26,6 +26,7 @@ function showPokemon(pokemonData) {
       </div>`
 };
 
+
 function showError(error) {
   const $error = document.querySelector(".poke-holder").innerHTML = `
   <img id="pokemon-image" 
